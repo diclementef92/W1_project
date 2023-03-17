@@ -4,6 +4,12 @@ public abstract class Riproducibile extends ElementoMultimediale {
 	private double durata;
 	private int volume;
 
+	public Riproducibile(String titolo, double durata, int volume) {
+		super(titolo);
+		this.durata = durata;
+		this.volume = volume;
+	}
+
 	@Override
 	public void show() {
 		play();

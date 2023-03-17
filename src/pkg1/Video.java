@@ -4,9 +4,7 @@ public class Video extends Riproducibile {
 	private int luminosita;
 
 	public Video(String titolo, double durata, int volume, int luminosita) {
-		super.setTitolo(titolo);
-		super.setDurata(durata);
-		super.setVolume(volume);
+		super(titolo, durata, volume);
 		setLuminosita(luminosita);
 	}
 

@@ -3,9 +3,7 @@ package pkg1;
 public class Audio extends Riproducibile {
 
 	public Audio(String titolo, double durata, int volume) {
-		super.setTitolo(titolo);
-		super.setDurata(durata);
-		super.setVolume(volume);
+		super(titolo, durata, volume);
 	}
 
 	@Override

@@ -4,7 +4,7 @@ public class Immagine extends ElementoMultimediale {
 	private int luminosita;
 
 	public Immagine(String titolo, int luminosita) {
-		super.setTitolo(titolo);
+		super(titolo);
 		setLuminosita(luminosita);
 	}
 
